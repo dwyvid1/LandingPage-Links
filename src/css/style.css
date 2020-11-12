@@ -3,15 +3,31 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+body {
+    background-color:  #5b46a1;
+}
+
+/* HEADER */
 
 header {
     height: 300px;
-    background-color: #000;
+    background-color: #5b46a1;
     color: #fff;
     align-items: center;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lobster Two', cursive;
+}
+
+header img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 30px;
 }
 
 .header-titles {
@@ -19,10 +35,126 @@ header {
     margin-top: 80px;
 }
 
-.header-titles h1 {
+.header-titles h1, h2 {
     font-size: 50px;
 }
 
-.header-titles h2 {
-    font-size: 50px;
+/* ------------------------------------ */
+
+/* NAV */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Lobster Two', cursive;
+}
+
+nav {
+    background-color:  #7159c1;
+    margin-top: 50px;
+
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+    height: 200px;
+    width: 1200px;
+}
+
+nav p {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 155px;
+}
+
+.tech-html, .tech-css, .tech-javascript, .tech-node {
+    margin-right: 30px;
+}
+
+.tech-html {
+    margin-left: 30px;
+}
+
+/* ------------------------------------ */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Lobster Two', cursive;
+}
+
+/* BUTTONS */
+
+.main-buttons {
+    margin-top: 100px;
+
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+    width: 1200px;
+    height: 500px;
+    background-color: #7159c1;
+    font-family: 'Lobster Two', cursive;
+}
+
+.github-button {
+    height: 50px;
+    width: 800px;
+    border-radius: 5%;
+    font-size: 35px;
+    margin-top: 65px;
+
+    color: #fff;
+    background-color: #24292e;
+    font-family: 'Lobster Two', cursive;
+}
+
+.linkedin-button {
+    height: 50px;
+    width: 800px;
+    border-radius: 5%;
+    font-size: 35px;
+    margin-top: 50px;
+
+    color: #fff;
+    background-color: #2867B2;
+    font-family: 'Lobster Two', cursive;
+}
+
+.instagram-button {
+    height: 50px;
+    width: 800px;
+    border-radius: 5%;
+    font-size: 35px;
+    margin-top: 50px;
+
+    color: #fff;
+    background-color: #E1306C;
+    font-family: 'Lobster Two', cursive;
+}
+
+.twitter-button {
+    height: 50px;
+    width: 800px;
+    border-radius: 5%;
+    font-size: 35px;
+    margin-top: 50px;
+
+    color: #fff;
+    background-color: #1DA1F2;
+    font-family: 'Lobster Two', cursive;
+}
+
+/* ------------------------------------ */
+
+/*FOOTER */
+
+footer {
+    margin-top: 100px;
+    height: 200px;
+    background-color: #14171A;
 }
