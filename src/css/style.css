@@ -61,7 +61,7 @@ main {
     font-family: 'Lobster Two', cursive;
 }
 
-.whatsapp-button {
+#whatsapp-link {
     height: 50px;
     width: 800px;
     border-radius: 10px;
@@ -69,25 +69,29 @@ main {
     margin-top: 30px;
     cursor: pointer;
 
+    text-decoration: none; 
+
     color: #fff;
     background-color: #25D366;
     font-family: 'Lobster Two', cursive;
 }
 
-.github-button {
+#github-link {
     height: 50px;
     width: 800px;
     border-radius: 10px;
     font-size: 35px;
     margin-top: 50px;
     cursor: pointer;
+
+    text-decoration: none; 
 
     color: #fff;
     background-color: #24292e;
     font-family: 'Lobster Two', cursive;
 }
 
-.linkedin-button {
+#linkedin-link {
     height: 50px;
     width: 800px;
     border-radius: 10px;
@@ -95,13 +99,14 @@ main {
     margin-top: 50px;
     cursor: pointer;
 
+    text-decoration: none;
 
     color: #fff;
     background-color: #2867B2;
     font-family: 'Lobster Two', cursive;
 }
 
-.instagram-button {
+#instagram-link {
     height: 50px;
     width: 800px;
     border-radius: 10px;
@@ -109,19 +114,22 @@ main {
     margin-top: 50px;
     cursor: pointer;
 
+    text-decoration: none;
 
     color: #fff;
     background-color: #E1306C;
     font-family: 'Lobster Two', cursive;
 }
 
-.twitter-button {
+#twitter-link {
     height: 50px;
     width: 800px;
     border-radius: 10px;
     font-size: 35px;
     margin-top: 50px;
     cursor: pointer;
+
+    text-decoration: none;
 
     color: #fff;
     background-color: #1DA1F2;
