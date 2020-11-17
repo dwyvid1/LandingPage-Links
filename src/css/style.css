@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -31,17 +32,19 @@ header img {
     margin-top: 40px;
 }
 
-.header-titles {
+header h1 {
     margin-top: 30px;
 }
 
-.header-titles h1, h2 {
+header h1, h2 {
     font-size: 50px;
 }
 
 /* ------------------------------------ */
 
 main {
+    height: 580px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,16 +52,11 @@ main {
     font-family: 'Lobster Two', cursive;
 }
 
-/* BUTTONS */
+/* Links */
 
-.main-buttons {
-    margin-top: 0px;
-
+.main-links {
     align-items: center;
     text-align: center;
-    border-radius: 2%;
-
-    font-family: 'Lobster Two', cursive;
 }
 
 #whatsapp-link {
@@ -66,7 +64,6 @@ main {
     width: 800px;
     border-radius: 10px;
     font-size: 35px;
-    margin-top: 30px;
     cursor: pointer;
 
     text-decoration: none; 
@@ -137,11 +134,3 @@ main {
 }
 
 /* ------------------------------------ */
-
-/*FOOTER */
-
-footer {
-    margin-top: 100px;
-    height: 200px;
-    background-color: #14171A;
-}
