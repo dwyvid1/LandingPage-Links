@@ -1,5 +1,4 @@
-<h1 align="center">Landing Page | Links of Social Networks :pushpin:
-</h1>
+<h1 align="center"> Links Fast :pushpin:</h1>
 <h1 align="center">About :bulb:</h1>
  
 * This project was inspired by Linktree. I would like to create a website that stores all the links on my social networks;
