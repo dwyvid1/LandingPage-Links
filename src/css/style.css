@@ -14,7 +14,7 @@ body {
 /* HEADER */
 
 header {
-    height: 400px;
+    height: 330px;
     width: 100%;
     background-color: #5b46a1;
     color: #fff;
@@ -43,7 +43,7 @@ header h1, h2 {
 /* ------------------------------------ */
 
 main {
-    height: 580px;
+    height: 435px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -59,11 +59,13 @@ main {
     text-align: center;
 }
 
-#whatsapp-link {
+.whatsapp-link {
+    display: block;
+
     height: 50px;
     width: 800px;
     border-radius: 10px;
-    font-size: 35px;
+    font-size: 40px;
     cursor: pointer;
 
     text-decoration: none; 
@@ -73,27 +75,29 @@ main {
     font-family: 'Lobster Two', cursive;
 }
 
-#github-link {
+.github-link {
+    display: block;
+
     height: 50px;
     width: 800px;
     border-radius: 10px;
-    font-size: 35px;
-    margin-top: 50px;
+    font-size: 40px;
+    margin-top: 20px;
     cursor: pointer;
-
-    text-decoration: none; 
 
     color: #fff;
     background-color: #24292e;
     font-family: 'Lobster Two', cursive;
 }
 
-#linkedin-link {
+.linkedin-link {
+    display: block;
+
     height: 50px;
     width: 800px;
     border-radius: 10px;
-    font-size: 35px;
-    margin-top: 50px;
+    font-size: 40px;
+    margin-top: 20px;
     cursor: pointer;
 
     text-decoration: none;
@@ -103,12 +107,14 @@ main {
     font-family: 'Lobster Two', cursive;
 }
 
-#instagram-link {
+.instagram-link {
+    display: block;
+
     height: 50px;
     width: 800px;
     border-radius: 10px;
-    font-size: 35px;
-    margin-top: 50px;
+    font-size: 40px;
+    margin-top: 20px;
     cursor: pointer;
 
     text-decoration: none;
@@ -118,12 +124,14 @@ main {
     font-family: 'Lobster Two', cursive;
 }
 
-#twitter-link {
+.twitter-link {
+    display: block;
+
     height: 50px;
     width: 800px;
     border-radius: 10px;
-    font-size: 35px;
-    margin-top: 50px;
+    font-size: 40px;
+    margin-top: 20px;
     cursor: pointer;
 
     text-decoration: none;
@@ -139,53 +147,71 @@ main {
 
 @media (max-width: 820px) {
     header {
-        height: 350px;
+        height: 330px;
     }
 
     header h1, h2 {
         font-size: 40px;
     }
 
-    #whatsapp-link, #github-link,
-    #linkedin-link, #instagram-link, #twitter-link {
+    .whatsapp-link, .github-link,
+    .linkedin-link, .instagram-link, .twitter-link {
        width: 600px;
    }
 }
 
 @media (max-width: 650px) {
 
-    #whatsapp-link, #github-link,
-    #linkedin-link, #instagram-link, #twitter-link {
+    .whatsapp-link, .github-link,
+    .linkedin-link, .instagram-link, .twitter-link {
        width: 450px;
     }
 }
 
 @media (max-width: 450px) {
 
+    header {
+        height: 345px;
+    }
+
     header h1, h2 {
         font-size: 35px;
     }
 
     main {
-        height: 490px;
+        height: 335px;
     }
 
-    #whatsapp-link, #github-link,
-    #linkedin-link, #instagram-link, #twitter-link {
+    .whatsapp-link, .github-link,
+    .linkedin-link, .instagram-link, .twitter-link {
         height: 40px;
         width: 350px;
     }
 }
 
 @media (max-width: 360px) {
+    header {
+        height: 310px;
+    }
+
     header h1, h2 {
         font-size: 27px;
     }
 
-    #whatsapp-link, #github-link,
-    #linkedin-link, #instagram-link, #twitter-link {
+    main {
+        height: 370px;
+    }
+
+    .whatsapp-link, .github-link,
+    .linkedin-link, .instagram-link, .twitter-link {
         height: 40px;
         width: 250px;
+    }
+}
+
+@media (max-width: 250px) {
+    header {
+        height: 345px;
     }
 }
 
