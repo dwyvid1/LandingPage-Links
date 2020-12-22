@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
 body {
     background-color:  #5b46a1;
@@ -14,18 +13,18 @@ body {
 /* HEADER */
 
 header {
-    height: 330px;
+    height: 370px;
     width: 100%;
     background-color: #5b46a1;
     color: #fff;
     align-items: center;
     text-align: center;
-    font-family: 'Lora', serif;
-}
+    font-family: 'Zilla Slab', serif;
+}    
 
 header img {
-    height: 170px;
-    width: 170px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     align-items: center;
     text-align: center;
@@ -37,7 +36,7 @@ header h1 {
 }
 
 header h1, h2 {
-    font-size: 50px;
+    font-size: 65px;
 }
 
 /* ------------------------------------ */
@@ -47,98 +46,72 @@ main {
     width: 100%;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
-
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Zilla Slab', serif;
 }
 
 /* Links */
 
-.main-links {
-    align-items: center;
-    text-align: center;
-}
-
 .whatsapp-link {
     display: block;
-
-    height: 50px;
     width: 800px;
     border-radius: 10px;
     font-size: 40px;
+    margin-top: 20px;
     cursor: pointer;
-
-    text-decoration: none; 
-
+    text-decoration: none;
     color: #fff;
     background-color: #25D366;
-    font-family: 'Lobster Two', cursive;
 }
 
 .github-link {
     display: block;
-
-    height: 50px;
     width: 800px;
     border-radius: 10px;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
     cursor: pointer;
-
+    text-decoration: none;
     color: #fff;
     background-color: #24292e;
-    font-family: 'Lobster Two', cursive;
 }
 
 .linkedin-link {
     display: block;
-
-    height: 50px;
     width: 800px;
     border-radius: 10px;
     font-size: 40px;
     margin-top: 20px;
     cursor: pointer;
-
     text-decoration: none;
-
     color: #fff;
     background-color: #2867B2;
-    font-family: 'Lobster Two', cursive;
 }
 
 .instagram-link {
     display: block;
-
-    height: 50px;
     width: 800px;
     border-radius: 10px;
     font-size: 40px;
     margin-top: 20px;
     cursor: pointer;
-
     text-decoration: none;
-
     color: #fff;
     background-color: #E1306C;
-    font-family: 'Lobster Two', cursive;
 }
 
 .twitter-link {
     display: block;
-
-    height: 50px;
     width: 800px;
     border-radius: 10px;
     font-size: 40px;
     margin-top: 20px;
     cursor: pointer;
-
     text-decoration: none;
-
     color: #fff;
     background-color: #1DA1F2;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* ------------------------------------ */
@@ -147,11 +120,11 @@ main {
 
 @media (max-width: 820px) {
     header {
-        height: 330px;
+        height: 360px;
     }
 
     header h1, h2 {
-        font-size: 40px;
+        font-size: 55px;
     }
 
     .whatsapp-link, .github-link,
@@ -168,50 +141,73 @@ main {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 
     header {
-        height: 345px;
+        height: 365px;
     }
 
-    header h1, h2 {
-        font-size: 35px;
+    header h1 {
+        font-size: 45px;
     }
 
     main {
-        height: 335px;
+        height: 390px;
     }
 
     .whatsapp-link, .github-link,
     .linkedin-link, .instagram-link, .twitter-link {
-        height: 40px;
         width: 350px;
+    }
+}
+
+@media (max-width: 385px) {
+    header h1 {
+        font-size: 40px;
     }
 }
 
 @media (max-width: 360px) {
     header {
-        height: 310px;
+        height: 320px;
     }
 
-    header h1, h2 {
-        font-size: 27px;
+    header h1 {
+        font-size: 35px;
     }
 
     main {
-        height: 370px;
+        height: 455px;
     }
 
     .whatsapp-link, .github-link,
     .linkedin-link, .instagram-link, .twitter-link {
-        height: 40px;
         width: 250px;
+    }
+}
+
+@media (max-width: 305px) {
+
+    header {
+        height: 325px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+    
+    main {
+        height: 565px;
     }
 }
 
 @media (max-width: 250px) {
     header {
-        height: 345px;
+        height: 360px;
+    }
+
+    main {
+        height: 500px;
     }
 }
 
