@@ -5,5 +5,3 @@
 * The site is responsive;
 * I'm using Fontawesome to use icons.
 * It is a simple and personal project, to train what I already know with HTML and CSS;
-
-![](https://github.com/dwyvid1/landing-page/blob/main/assets/landingpage-web.png)
