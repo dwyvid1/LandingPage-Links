@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
 body {
-    background-color:  #5b46a1;
+    background-color:  #303952;
 }
 
 /* HEADER */
@@ -15,7 +15,7 @@ body {
 header {
     height: 370px;
     width: 100%;
-    background-color: #5b46a1;
+    background-color: #303952;
     color: #fff;
     align-items: center;
     text-align: center;
