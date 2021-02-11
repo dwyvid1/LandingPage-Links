@@ -9,6 +9,6 @@ This project was developed with the following technologies:
 * Fontawesome;
 
 ## 💻 Project
-This project was inspired by Linktree. Meus Links is a web project where I store the links of my social networks.
+This project was inspired by Linktree. My Links is a web project where I store the links of my social networks.
 
 Made with :purple_heart: by Deyvid Nascimento :wave:
