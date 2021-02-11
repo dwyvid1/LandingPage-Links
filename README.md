@@ -1,7 +1,14 @@
-<h1 align="center"> MyLinks Project :pushpin:</h1>
-<h1 align="center">About :bulb:</h1>
- 
-* This project was inspired by Linktree. I would like to create a website that stores all the links on my social networks;
-* The site is responsive;
-* I'm using Fontawesome to use icons.
-* It is a simple and personal project, to train what I already know with HTML and CSS;
+<h1 align="center"> My Links :pushpin:</h1>
+
+![preview-web](https://github.com/dwyvid1/mylinks/blob/main/img/mylinks-web.png)
+
+## :rocket: Technologies
+This project was developed with the following technologies:
+* HTML 5;
+* CSS 3;
+* Fontawesome;
+
+## 💻 Project
+This project was inspired by Linktree. Meus Links is a web project where I store the links of my social networks.
+
+Made with :purple_heart: by Deyvid Nascimento :wave:
